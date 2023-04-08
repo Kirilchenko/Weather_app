@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:rgb(6, 2, 26);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: gold;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+input {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 8px;
+}
+button {
+  margin: 7px;
+  padding: 7px;
+  border-radius: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.divSearch {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cityDate {
+  text-align: center;
+}
+img {
+  margin-left: 130px;
+}
